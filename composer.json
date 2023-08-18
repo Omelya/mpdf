@@ -21,7 +21,7 @@
 		"docs": "http://mpdf.github.io"
 	},
 	"require": {
-		"php": "^5.6 || ^7.0 || ~8.0.0 || ~8.1.0 || ~8.2.0",
+		"php": "^5.6 || ^7.0 || ~8.0.0 || ~8.1 || ~8.2.0",
 		"ext-gd": "*",
 		"ext-mbstring": "*",
 		"mpdf/psr-log-aware-trait": "^2.0 || ^3.0",
@@ -36,7 +36,8 @@
 		"mpdf/qrcode": "^1.1.0",
 		"squizlabs/php_codesniffer": "^3.5.0",
 		"tracy/tracy": "~2.5",
-		"yoast/phpunit-polyfills": "^1.0"
+		"yoast/phpunit-polyfills": "^2.0.0",
+		"phpunit/phpunit": "10.3.2"
 	},
 	"suggest": {
 		"ext-bcmath": "Needed for generation of some types of barcodes",
